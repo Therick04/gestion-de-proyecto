@@ -8,8 +8,8 @@ Este repositorio sigue un flujo de 3 niveles pensado para un equipo de 3 desarro
 
 ```text
 dev/ricardo   ──┐
-dev/miembro-2 ──┼──► pruebas ──(Pull Request)──► main (Producción)
-dev/miembro-3 ──┘
+dev/ubaldo ──┼──► pruebas ──(Pull Request)──► main (Producción)
+dev/jeremy ──┘
 ```
 
 ### Ramas
@@ -19,8 +19,8 @@ dev/miembro-3 ──┘
 | `main` | **Producción** (código estable listo para despliegue) | Protegida — cambios solo vía Pull Request desde `pruebas` |
 | `pruebas` | **Entorno de pruebas / integración** | Recibe el código de las 3 ramas de desarrollo para validar que todo funciona en conjunto |
 | `dev/ricardo` | Rama de desarrollo — Ricardo | Desarrollo diario |
-| `dev/miembro-2` | Rama de desarrollo — Miembro 2 | Desarrollo diario |
-| `dev/miembro-3` | Rama de desarrollo — Miembro 3 | Desarrollo diario |
+| `dev/ubaldo` | Rama de desarrollo — ubaldo | Desarrollo diario |
+| `dev/jeremy` | Rama de desarrollo — jeremy | Desarrollo diario |
 
 ### Paso a paso para el equipo
 
